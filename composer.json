@@ -1,0 +1,30 @@
+{
+  "name": "v-tikhomirov/yii2-integration-sdk",
+  "description": "Набор компонентов для работы с сервисами интеграции",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Tikhomirov\\IntegrationSdk\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "V Tikhomirov",
+      "email": "job.tikhomirov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-soap": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-xml": "*",
+    "beberlei/assert": "^3.1",
+    "guzzlehttp/guzzle": "~6.0",
+    "ext-simplexml": "*",
+    "v-tikhomirov/client-interface": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
